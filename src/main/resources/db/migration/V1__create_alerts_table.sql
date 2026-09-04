@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS alerts (
+    id BIGSERIAL PRIMARY KEY,
+    user_id BIGINT NOT NULL,
+    created_at TIMESTAMP NOT NULL,
+    sent BOOLEAN NOT NULL
+);
